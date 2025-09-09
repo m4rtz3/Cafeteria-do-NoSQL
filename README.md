@@ -34,10 +34,18 @@ mkdir app && cd app
 mkdir public
 touch public/index.html server.js
 npm init -y
-npm install express path
+npm install express pathredis-server --protected-mode no --bind 0.0.0.0 &
+npm i express
+npm i redis
 ```
 
-Após isso rode:
+Lemrbe do github, fazer a conexão!
+```bash
+npm i git
+git clone {link do repositorio do github}
+```
+
+Após isso arrume o path através do cd (onde está o nosso .js) e rode:
 ```
 node server.js
 ```
