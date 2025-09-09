@@ -113,7 +113,14 @@ app.listen(PORT, () => {
 Na **instância 2**:
 
 ```bash
-node server.js
+apk add nodejs npm
+mkdir app
+cd app
+mkdir public
+touch public/index.html
+touch server.js
+npm init -y
+npm install --save express path
 ```
 
 ---
