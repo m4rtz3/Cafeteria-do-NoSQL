@@ -37,6 +37,13 @@ npm init -y
 npm install express path
 ```
 
+Após isso rode:
+```
+node server.js
+```
+
+E abre a porta 3000.
+
 ---
 
 ## 📂 Estrutura do Projeto
